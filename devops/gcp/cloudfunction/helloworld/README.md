@@ -14,6 +14,14 @@ point:
 - or need to specify the --end_point
 
 
+**dependencies**:
+
+```
+virtualenv env
+source env/bin/activate
+pip3 install -r requirements.txt
+```
+
 **deploy**
 
 ```
