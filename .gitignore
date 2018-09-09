@@ -1,3 +1,8 @@
+.DS_Store
+statistics/data/**
+**/config.yml
+**/trigger.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

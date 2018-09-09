@@ -1,0 +1,4 @@
+host: /cloudsql/<ProjectID>:<Region>:<InstanceID>
+user: user
+password: password
+database: database
