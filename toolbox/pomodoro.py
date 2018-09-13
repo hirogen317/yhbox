@@ -20,7 +20,7 @@ log_path = "{home}/Documents/documents/dailylogs/{month_folder}".format(home = o
 def frog():
     """
     カエルが鳴くうちに、1秒なくなりました。
-    
+
     """
     os.system("afplay -t 1 {}".format(FROG_SOUND))
 
@@ -44,6 +44,10 @@ original_hour = nowtime.replace(microsecond=0, second=0, minute=0)
 #nexthour = nowhour + timedelta(hours=1)
 
 not_sounded = True
+
+
+# log when run the pomodoro
+log()
 
 while True:
     time.sleep(1)
